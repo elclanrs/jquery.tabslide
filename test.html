@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jquery.tabslide</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+  <div class="tabslide-container">
+
+    <nav class="tabslide-nav"></nav>
+
+    <div class="tabslide-wrap">
+
+      <article class="slide">
+        <h1>Lorem ipsum</h1>
+        <p>
+       Turpis placerat placerat aliquet sed pulvinar turpis enim non habitasse habitasse sit penatibus lorem, natoque integer, lectus nunc. Hac tortor, eu mus?
+        </p>
+      </article>
+
+      <article class="slide">
+        <h1>Dolor sit</h1>
+        <p>
+          Ac dapibus. Tristique diam! Turpis cum platea enim mauris, et sit, lundium mus porta et enim augue, vel odio, urna dapibus? Placerat sit pellentesque dignissim montes.
+        </p>
+      </article>
+
+      <article class="slide">
+        <h1>Montes auge porta</h1>
+        <p>
+          Eros aenean natoque placerat ut nunc? A tincidunt ac, in proin, ultrices hac tincidunt elementum scelerisque porttitor lundium tincidunt.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+
+  <div class="tabslide-links">
+    <a class="prev" href="#">Prev</a>
+    <a class="next" href="#">Next</a>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="jquery.tabslide.js"></script>
+
+  <script>
+    var $tabslider = $('.tabslide-container');
+    $tabslider.tabslide();
+    $('.prev').click(function(){ $tabslider.tabslide('prev') });
+    $('.next').click(function(){ $tabslider.tabslide('next') });
+  </script>
+
+</body>
+</html>

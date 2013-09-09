@@ -1,0 +1,52 @@
+body {
+  font:normal 15px Arial, sans-serif;
+  width: 500px;
+  margin: 1em auto;
+}
+
+.tabslide-container {
+  height: 200px
+}
+
+ul {
+  overflow:hidden;
+  list-style:none;
+  margin:0;
+  padding: 1em 0;
+  border-bottom: 1px solid gray;
+}
+
+li {
+  float:left;
+  margin-right:1em;
+}
+
+li a {
+  display:block;
+  color:#000;
+  text-decoration:none;
+  font-weight:700;
+  padding:.25em .5em;
+}
+
+li.slide-active a {
+  color:#FFF;
+  background:purple;
+}
+
+.tabslide-wrap {
+  position:relative;
+}
+
+.slide {
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.tabslide-links {
+  padding: .5em 0
+}
+.next {
+  float: right
+}
