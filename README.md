@@ -1,7 +1,9 @@
-jquery.tabslide
+Tabslide
 ===============
 
-With jQuery Tabslide you can create tabbed content or sliders easily with a simple fading effect, nothing fancy.
+With Tabslide you can create tabbed content or sliders easily with a simple fading effect, nothing fancy.
+
+**Requires:** jQuery 1.9+
 
 ## How to
 
