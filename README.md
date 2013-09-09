@@ -115,3 +115,25 @@ Go to the previous or next slide.
 $tabslider.tabslide('prev'); // go to previous slide
 $tabslider.tabslide('next'); // go to next slide
 ```
+
+## FAQ:
+
+**How can I hide the previous and next buttons on the first and last slide respectively?**  
+
+```javascript
+$('.tabslide-container').tabslide({
+  // Add some logic after the slides change
+  // `this` is the Tabslide instance
+  // `idx` is the index of the active slide
+  after: function(idx) {
+    // Reset
+    $('.prev, .next').show();
+    // If it's the first slide hide the previous button
+    if (idx === 0) $('.prev').hide();
+    // If it's the last slide hide the next button
+    if (idx >= this.$items.length-1) $('.next').hide();
+  }
+});
+
+$('.prev').hide(); // init, assuming you start on the first slide
+```
