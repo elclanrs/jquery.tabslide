@@ -87,7 +87,7 @@ defaults = {
   // Pass an array with custom text for each slide
   buildNavItems: true,
   wrap: '.tabslide-wrap', // the container for the slides
-  item: '.slide', // slecetor for single slide
+  item: '.slide', // selector for a single slide
   activeClass: 'slide-active', // the class for active item in navigation
   before: null, // callback that runs before changing slides
   after: null, // callback that runs after changing slides
