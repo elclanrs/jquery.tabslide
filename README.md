@@ -11,14 +11,14 @@ A tabslide has 3 main modules:
 
 #### 1. Container
 
-A main container to wrap your tabslider:
+A main container to wrap your tabslider.
 
 ```html
 <div class="tabslide-container">
   <!-- Tabslide -->
 </div>
 ```
-Once you have the container call the plugin:
+Once you have the container call the plugin.
 
 ```javascript
 var $tabslider = $('.tabslide-container').tabslide({ options });
@@ -116,7 +116,7 @@ $tabslider.tabslide('prev'); // go to previous slide
 $tabslider.tabslide('next'); // go to next slide
 ```
 
-## FAQ:
+## FAQ
 
 **How can I hide the previous and next buttons on the first and last slide respectively?**  
 
