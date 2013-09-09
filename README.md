@@ -97,7 +97,7 @@ defaults = {
 };
 ```
 
-## Public methods
+## Methods
 
 #### go(idx)
 
