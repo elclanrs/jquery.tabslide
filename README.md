@@ -74,8 +74,8 @@ The slides must be inside a wrapper. A slide can be an image or an article with 
 The next and previous buttons are up to you. Tabslide provides two shortcut methods.
 
 ```javascript
-$('.prev').click(function(){ $('.tabslide-container').tabslide('prev') });
-$('.next').click(function(){ $('.tabslide-container').tabslide('next') });
+$('.prev').click(function(){ $tabslider.tabslide('prev') });
+$('.next').click(function(){ $tabslider.tabslide('next') });
 ```
 
 ## Options
