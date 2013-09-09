@@ -21,7 +21,7 @@ A main container to wrap your tabslider:
 Once you have the container call the plugin:
 
 ```javascript
-$('.tabslide-container').tabslide({ options });
+var $tabslider = $('.tabslide-container').tabslide({ options });
 ```
 
 #### 2. Navigation
