@@ -3,7 +3,7 @@ jquery.tabslide
 
 With jQuery Tabslide you can create tabbed content or sliders easily with a simple fading effect, nothing fancy.
 
-### How to
+## How to
 
 A tabslide has 3 main modules:
 
@@ -76,7 +76,7 @@ $('.prev').click(function(){ $('.tabslide-container').tabslide('prev') });
 $('.next').click(function(){ $('.tabslide-container').tabslide('next') });
 ```
 
-### Options
+## Options
 
 ```javascript
 defaults = {
@@ -95,7 +95,7 @@ defaults = {
 };
 ```
 
-### Public methods
+## Public methods
 
 #### go(idx)
 
