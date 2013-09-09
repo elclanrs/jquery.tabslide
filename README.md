@@ -94,3 +94,22 @@ defaults = {
   fadeSpeed: 300 // the speed of the fading effect. 0 to disable
 };
 ```
+
+### Public methods
+
+#### go(idx)
+
+Go to a specific slide by index.
+
+```javascript
+$tabslider.tabslide('go', 2); // go to slide in index 2
+```
+
+#### prev/next
+
+Go to the previous or next slide.
+
+```javascript
+$tabslider.tabslide('prev'); // go to previous slide
+$tabslider.tabslide('next'); // go to next slide
+```
