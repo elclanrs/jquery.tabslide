@@ -37,7 +37,7 @@ To use custom text, create the container and pass an array with the text of each
 ```
 ```javascript
 $('.tabslide-container').tabslide({
-  navItems: [
+  buildNavItems: [
     'First Slide',
     'Second Slide',
     'Third Slide'
