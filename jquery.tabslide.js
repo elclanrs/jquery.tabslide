@@ -1,11 +1,4 @@
 /**!
- * Advanced jQuery Boilerplate
- * @author: Cedric Ruiz
- * https://gist.github.com/elclanrs/5668451
- */
-(function(e){e.newPlugin=function(t,n,r,i){function s(r,i){this.opts=e.extend({},n,i);this.el=r;this._name=t;this._init()}s.prototype._init=e.noop;s.prototype[t]=function(e){if(!e)return this._init();try{return this[e].apply(this,[].slice.call(arguments,1))}catch(t){}};e.extend(s.prototype,r);if(i)e[t]=i;e.fn[t]=function(){var n=arguments,r;this.each(function(){var i=e.data(this,"plugin_"+t);if(!i||typeof n[0]=="object"){return e.data(this,"plugin_"+t,new s(this,n[0]))}return r=i[t].apply(i,n)});return/^get/.test(n[0])?r:this}}})(jQuery);
-
-/**!
  * Tabslide
  * @author: Cedric Ruiz
  * https://github.com/elclanrs/jquery.tabslide
